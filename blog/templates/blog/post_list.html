@@ -5,11 +5,15 @@
 {% block content %} 
     {% for post in post_list %} <!-- acessando a variavel post_list-->
         <article>
-            <h2> {{post.title}} </h2> <!-- acessando o arquivo -->
+            <h2> 
+                <a href="{{ post.get_absolute_url }}">
+                    {{ post.title }}
+                </a>
+                 </h2> <!-- acessando o arquivo -->
                 <p class="date">
-                    publicado em {{post.created}} por {{post.author}}
+                    publicado em {{post.created}} por {{ post.author }}
                 </p>
-                {{post.body|linebreaks|truncatewords:10}} <!-- limitando os caracteres-->
+                {{ post.body|linebreaks|truncatewords:10 }} <!-- limitando os caracteres-->
         </article>
     {% endfor %}
 {% endblock %} <!-- fim do bloco-->
