@@ -9,5 +9,7 @@ class Post(models.Model):
     created = models.DateTimeField(auto_now_add=True) # adiciona a data e a hr no post criado
     updated = models.DateTimeField(auto_now=True) # atualiza a data de uma modificacao
 
-    
+    def __str__(self):
+        return self.title
+     
     
