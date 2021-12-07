@@ -11,6 +11,8 @@ class Post(models.Model):
     updated = models.DateTimeField(auto_now=True) # atualiza a data de uma modificacao
 
 
+
+
     class meta:
         ordering = ("-created",) # ordenar de acordo com o horario da criacao do post
 
