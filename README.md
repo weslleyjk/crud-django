@@ -2,9 +2,6 @@
 <img src="https://user-images.githubusercontent.com/57967369/124367409-4984a180-dc2d-11eb-919b-060378084a84.png" alt ="logo do IF"></a>
 > -------------------------------------------------
 - [Requeriments](#Requeriments)
-- [Exec](#Exec)
-- [Tools](#Tools)
-- [Team](#Team)
 
 ### Clone
 - Clone the repository in your computer : ```git clone https://github.com/weslleyjk/crud-django.git ```
@@ -26,9 +23,4 @@
 - pip install django (instalar o django no ambiente virtual do python)
 - python .\manage.py runserver (iniciar o servidor)
 ```
-
-### Exec
-```
-```
-## Tools
 
