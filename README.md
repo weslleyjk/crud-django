@@ -1,6 +1,5 @@
-# E-Sports Plus
-![BreakTudo](file:///C:/Users/Weslley/crud_django/blog/static/images/logo.jpg)
-
+# E-Sports Plus 2.0
+<img src="https://user-images.githubusercontent.com/57967369/124367409-4984a180-dc2d-11eb-919b-060378084a84.png" alt ="logo do IF"></a>
 > -------------------------------------------------
 - [Requeriments](#Requeriments)
 - [Exec](#Exec)
@@ -32,3 +31,4 @@
 ```
 ```
 ## Tools
+
